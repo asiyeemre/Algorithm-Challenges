@@ -22,6 +22,7 @@ Mühendislik formasyonumu pratikle birleştirerek, sadece "çalışan kod" deği
 | No | Soru | Zorluk | Konu / Yöntem | Durum |
 | :---: | :--- | :---: | :--- | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Dictionary (Hash Map) vs Brute Force | ✅ |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | String Manipulation / ToCharArray / Reverse | ✅ |
 
 *(Liste her gün güncellenecektir.)*
 
