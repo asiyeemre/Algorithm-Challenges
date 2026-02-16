@@ -66,3 +66,27 @@ public class Solution {
         return new int[0];
     }
 }
+
+class Program {
+    static void Main(string[] args) {
+        Solution cozum = new Solution();
+
+        // 1. Test verilerini hazırla
+        int[] sayilar = { 2, 7, 11, 15 };
+        int hedef = 9;
+
+        Console.WriteLine("Dizi: [2, 7, 11, 15]");
+        Console.WriteLine("Hedef: 9");
+
+        // 2. Fonksiyonu çalıştır
+        int[] sonuc = cozum.TwoSum(sayilar, hedef);
+
+        // 3. Sonucu ekrana yazdır
+        if (sonuc.Length == 2) {
+            Console.WriteLine($"SONUÇ: İndeksler [{sonuc[0]}, {sonuc[1]}]");
+            Console.WriteLine($"Sağlama: {sayilar[sonuc[0]]} + {sayilar[sonuc[1]]} = {hedef}");
+        } else {
+            Console.WriteLine("Sonuç bulunamadı.");
+        }
+    }
+}
